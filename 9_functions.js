@@ -31,6 +31,9 @@ console.log(calculator(5, 6, "-"));
 
 console.log("=======================");
 
+// ================================
+// Anonymous Function or Function expression
+// ================================
 var sum = function (a, b) {
   return a + b;
 };
@@ -38,6 +41,9 @@ console.log(sum(3, 1));
 
 console.log("=======================");
 
+// ================================
+// IIFE (Immediately Invoked Function Expression)
+// ================================
 (function () {
   console.log("I am an IIFE");
 })();
