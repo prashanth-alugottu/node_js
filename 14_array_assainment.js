@@ -154,5 +154,14 @@ function max_repeat(arr) {
 arr111 = [1, 2, 3, 2, 3, 3];
 console.log("Max iterated number : ", max_repeat(arr111));
 
-// 25.
-// Write an array with 10 elements. These could be numbers, words, sentences etc. Write a simple JavaScript program to join all elements of the array into a string.
+// =======================================================================================
+console.log("==============================");
+
+// 25. Write an array with 10 elements. These could be numbers, words, sentences etc. Write a simple JavaScript program to join all elements of the array into a string.
+
+function joinall(arr) {
+  return arr.join(",");
+}
+arr = [1, 2, "HEllo", 2.23, false];
+joinstr = joinall(arr);
+console.log("Joinded : ", joinstr, typeof joinstr);
