@@ -1,10 +1,9 @@
 function show() {
-  //   console.log("In side show() : ", this);
   return this;
 }
 console.log(show());
 
-// console.log("Out side show() or global : ", this);
+// console.log(this);
 
 // const person = {
 //   name: "chinnu",
