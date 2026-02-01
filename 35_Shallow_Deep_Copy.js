@@ -51,3 +51,9 @@ console.log(deepCopyArr[2]);
 
 console.log(arrdeep);
 console.log(arrdeep[2]);
+
+let str = "hello";
+
+for (var a of str) {
+  console.log(a);
+}
